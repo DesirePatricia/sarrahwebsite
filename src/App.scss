@@ -44,7 +44,7 @@
   height: 244.62px;
   left: 94px;
   top: 476px;
-  @media (max-width: 768px) {
+  @media (max-width: 768px) and (min-width: 706px) {
       left: auto;
       top: auto;
       margin-top: 31%;
@@ -53,6 +53,16 @@
       width: 90%;
       height: auto;
       text-align: center;
+    }
+    @media (max-width: 706px) {
+      left: auto;
+        top: auto;
+        margin-top: 35%;
+        margin-left: 5%;
+        position: relative;
+        width: 90%;
+        height: auto;
+        text-align: center;
     }
 }
 
@@ -76,12 +86,17 @@
       margin-left: 1%;
       margin-right: 1%;
     }
+      @media (max-width: 768px) and (min-width: 1385px) {
+      font-size: 60px;
+      &-inner{
+        font-size: 58px;
+      }
+      }
 
-      @media (max-width: 768px) {
+      @media (max-width: 768px) and (min-width:628px) {
       font-family: 'Cormorant SC';
       left: 35px;
       top: 17px;
-      width: 100%;
       height: auto;
       font-style: normal;
       font-weight: 300;
@@ -100,6 +115,31 @@
       display: block;
       margin-left: 0;
       }
+    }
+
+    @media (max-width:628px){
+      font-family: 'Cormorant SC';
+        left: 26px;
+        top: 17px;
+        height: auto;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 42px;
+        text-align: left;
+        color: black;
+        line-height: 60px;
+        letter-spacing: 0em;
+        text-shadow: none;
+        margin-bottom: 10px;
+      
+        &-inner {
+          font-size: 42px;
+          font-style: normal;
+          font-weight: 300;
+          color: black;
+          display: block;
+          margin-left: 0;
+        }
     }
 }
 
@@ -122,16 +162,28 @@
 
   color: #1E1E1E;
 
-  @media (max-width: 768px) {
+  @media (max-width: 768px) and (min-width:628px) {
       display: inline-block;
         letter-spacing: 0;
         top: 189px;
-        left: 611px;
-        width: 100%;
+        left: auto;
+        right:1px;
+        width: auto;
         margin-left: auto;
-        margin-right: auto;
+        margin-right: 5%;
         font-size: 30px;
   }
+    @media (max-width: 628px) {
+      display: inline-block;
+      letter-spacing: 0;
+      top: 159px;
+      left: auto;
+      right: 1px;
+      width: auto;
+      margin-left: auto;
+      margin-right: 5%;
+      font-size: 30px;
+    }
 }
 
 .land-menu{
@@ -139,7 +191,7 @@
     position: absolute;
     width: 105px;
     height: 41px;
-  
+    display: block;
     font-family: 'Cormorant SC';
     font-style: bold;
     font-weight: 700;
@@ -162,17 +214,22 @@
     left: 443px;
     top: 618px;
   }
+    @media (max-width: 768px) {
+      display: none;
+    }
 
 }
 
 .menu-icon{
   display: none;
     @media (max-width: 768px) {
+        position: absolute;
         display: inline-block;
-        top: 189px;
-          left: 611px;
-          width: 100%;
-          margin-left: auto;
-          margin-right: auto;
+        top: 38px;
+        left: auto;
+        right: 1px;
+        width: auto;
+        margin-left: auto;
+        margin-right: 5%;
     }
 }
