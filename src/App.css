@@ -58,11 +58,23 @@
     text-align: center;
   }
 }
-@media (max-width: 706px) {
+@media (max-width: 706px) and (min-width: 532px) {
   .land-image-3 {
     left: auto;
     top: auto;
     margin-top: 35%;
+    margin-left: 5%;
+    position: relative;
+    width: 90%;
+    height: auto;
+    text-align: center;
+  }
+}
+@media (max-width: 532px) {
+  .land-image-3 {
+    left: auto;
+    top: auto;
+    margin-top: 38%;
     margin-left: 5%;
     position: relative;
     width: 90%;
@@ -124,7 +136,7 @@
     margin-left: 0;
   }
 }
-@media (max-width: 628px) {
+@media (max-width: 628px) and (min-width: 502px) {
   .land-logo {
     font-family: "Cormorant SC";
     left: 26px;
@@ -142,6 +154,56 @@
   }
   .land-logo-inner {
     font-size: 42px;
+    font-style: normal;
+    font-weight: 300;
+    color: black;
+    display: block;
+    margin-left: 0;
+  }
+}
+@media (max-width: 502px) and (min-width: 420px) {
+  .land-logo {
+    font-family: "Cormorant SC";
+    left: 26px;
+    top: 17px;
+    height: auto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 32px;
+    text-align: left;
+    color: black;
+    line-height: 50px;
+    letter-spacing: 0em;
+    text-shadow: none;
+    margin-bottom: 10px;
+  }
+  .land-logo-inner {
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 300;
+    color: black;
+    display: block;
+    margin-left: 0;
+  }
+}
+@media (max-width: 420px) {
+  .land-logo {
+    font-family: "Cormorant SC";
+    left: 20px;
+    top: 17px;
+    height: auto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 32px;
+    text-align: left;
+    color: black;
+    line-height: 42px;
+    letter-spacing: 0em;
+    text-shadow: none;
+    margin-bottom: 10px;
+  }
+  .land-logo-inner {
+    font-size: 32px;
     font-style: normal;
     font-weight: 300;
     color: black;
@@ -178,7 +240,7 @@
     font-size: 30px;
   }
 }
-@media (max-width: 628px) {
+@media (max-width: 628px) and (min-width: 502px) {
   .land-est {
     display: inline-block;
     letter-spacing: 0;
@@ -189,6 +251,32 @@
     margin-left: auto;
     margin-right: 5%;
     font-size: 30px;
+  }
+}
+@media (max-width: 502px) and (min-width: 420px) {
+  .land-est {
+    display: inline-block;
+    letter-spacing: 0;
+    top: 132px;
+    left: auto;
+    right: 1px;
+    width: auto;
+    margin-left: auto;
+    margin-right: 5%;
+    font-size: 20px;
+  }
+}
+@media (max-width: 420px) {
+  .land-est {
+    display: inline-block;
+    letter-spacing: 0;
+    top: 113px;
+    left: auto;
+    right: 1px;
+    width: auto;
+    margin-left: auto;
+    margin-right: 5%;
+    font-size: 20px;
   }
 }
 
@@ -226,7 +314,7 @@
 .menu-icon {
   display: none;
 }
-@media (max-width: 768px) {
+@media (max-width: 768px) and (min-width: 502px) {
   .menu-icon {
     position: absolute;
     display: inline-block;
@@ -234,6 +322,18 @@
     left: auto;
     right: 1px;
     width: auto;
+    margin-left: auto;
+    margin-right: 5%;
+  }
+}
+@media (max-width: 502px) {
+  .menu-icon {
+    position: absolute;
+    display: inline-block;
+    top: 38px;
+    left: auto;
+    right: 1px;
+    width: 20px;
     margin-left: auto;
     margin-right: 5%;
   }
