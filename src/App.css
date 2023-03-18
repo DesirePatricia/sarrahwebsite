@@ -767,4 +767,228 @@
   line-height: 25px;
   text-align: center;
   letter-spacing: 0.07em;
+}
+
+.images-grid-wrapper {
+  text-align: center;
+}
+
+.image-grid {
+  margin: 1%;
+  width: 350px;
+  height: 310px;
+  -o-object-fit: fill;
+     object-fit: fill;
+}
+
+.grid-2-1-mobile {
+  display: none;
+}
+@media (max-width: 1118px) {
+  .grid-2-1-mobile {
+    display: inline-block;
+  }
+}
+
+.grid-2-1 {
+  display: none;
+}
+@media (min-width: 1118px) {
+  .grid-2-1 {
+    display: inline-block;
+  }
+}
+
+.image-6 {
+  width: 100%;
+  margin-top: 4%;
+}
+
+.testimonial-1 {
+  display: flex;
+  margin: 1%;
+}
+@media (max-width: 980px) {
+  .testimonial-1 {
+    display: block;
+  }
+}
+
+.testimonial-1-blurb {
+  display: inline-block;
+  vertical-align: middle;
+  text-align: center;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 25%;
+}
+@media (max-width: 980px) {
+  .testimonial-1-blurb {
+    margin: 15%;
+  }
+}
+
+.testimonial-1-blurb-title {
+  font-family: "Cormorant SC";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 78px;
+  text-align: center;
+  letter-spacing: 0.07em;
+}
+@media (max-width: 1315px) and (min-width: 550px) {
+  .testimonial-1-blurb-title {
+    font-size: 56px;
+  }
+}
+@media (max-width: 550px) {
+  .testimonial-1-blurb-title {
+    font-size: 36px;
+  }
+}
+
+.testimonial-1-blurb-text {
+  font-family: "Cambo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 38px;
+  line-height: 43px;
+  text-align: center;
+  color: #82837A;
+}
+@media (max-width: 1315px) and (min-width: 550px) {
+  .testimonial-1-blurb-text {
+    font-size: 30px;
+  }
+}
+@media (max-width: 550px) {
+  .testimonial-1-blurb-text {
+    font-size: 24px;
+  }
+}
+
+.testimonial-1-blurb-name {
+  font-family: "Cormorant SC";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+  text-align: center;
+  letter-spacing: 0.07em;
+  color: #09182A;
+}
+@media (max-width: 550px) {
+  .testimonial-1-blurb-name {
+    font-size: 20px;
+  }
+}
+
+.testimonial-1-image {
+  display: inline-block;
+  width: 50%;
+  height: auto;
+}
+@media (max-width: 1315px) and (min-width: 980px) {
+  .testimonial-1-image {
+    width: 40%;
+  }
+}
+@media (max-width: 980px) {
+  .testimonial-1-image {
+    width: 100%;
+    display: block;
+    margin: 0;
+  }
+}
+
+.image-7 {
+  width: 98%;
+  margin: 1%;
+}
+
+.testimonial-2 {
+  display: flex;
+  margin: 1%;
+}
+@media (max-width: 980px) {
+  .testimonial-2 {
+    display: block;
+  }
+}
+
+.testimonial-2-blurb {
+  display: inline-block;
+  vertical-align: middle;
+  text-align: center;
+  margin: 10%;
+}
+@media (max-width: 980px) {
+  .testimonial-2-blurb {
+    margin: 15%;
+  }
+}
+
+.testimonial-2-blurb-title {
+  font-family: "Cormorant SC";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 78px;
+  text-align: center;
+  letter-spacing: 0.07em;
+}
+@media (max-width: 1315px) and (min-width: 550px) {
+  .testimonial-2-blurb-title {
+    font-size: 56px;
+  }
+}
+@media (max-width: 550px) {
+  .testimonial-2-blurb-title {
+    font-size: 36px;
+  }
+}
+
+.testimonial-2-blurb-text {
+  font-family: "Cambo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 38px;
+  line-height: 43px;
+  text-align: center;
+  color: #82837A;
+}
+@media (max-width: 1315px) and (min-width: 550px) {
+  .testimonial-2-blurb-text {
+    font-size: 30px;
+  }
+}
+@media (max-width: 550px) {
+  .testimonial-2-blurb-text {
+    font-size: 24px;
+  }
+}
+
+.testimonial-2-blurb-name {
+  font-family: "Cormorant SC";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+  text-align: center;
+  letter-spacing: 0.07em;
+  color: #09182A;
+}
+@media (max-width: 550px) {
+  .testimonial-2-blurb-name {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 1495px) {
+  .testimonial-2-image {
+    width: 50%;
+    height: -moz-fit-content;
+    height: fit-content;
+  }
 }/*# sourceMappingURL=App.css.map */
