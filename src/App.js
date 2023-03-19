@@ -102,6 +102,7 @@ function App() {
           <div className="testimonial-2-blurb-name">Celine wedding 2022</div>
         </div>
       </div>
+      <div className="gif-image-2"></div>
     </div>
   );
 }
